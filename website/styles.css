@@ -1,0 +1,44 @@
+body {
+    background: rgb(31, 28, 28);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background: black;
+    padding: 20px 40px;
+}
+section {
+    background: white;
+    color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+div {
+    background: rgb(158, 150, 32);
+    display: inline-block;
+    width: 108px;
+    margin: auto;
+}
+footer {
+    background: black;
+    padding: 20px 10px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+section.feature-box.sales div{
+    background: aqua;
+}
+.sale div {
+    width: 100%;
+    width: 20px;
+}
